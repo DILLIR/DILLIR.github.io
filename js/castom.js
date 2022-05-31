@@ -1,11 +1,14 @@
 $(document).ready(function(){
     $('.feedback__cover').slick({
         dots: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        infinite: true,
         responsive: [
             {
             breakpoint: 900,
             settings: {
-                arrows: false,
                 infinite: true,
                 dots: true
             }

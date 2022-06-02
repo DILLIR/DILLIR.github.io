@@ -86,7 +86,7 @@ header{
 }
 
 .header__language{
-    width: 5%;
+    width: 7%;
     display: flex;
     height: 64px;
     align-items: center;
@@ -94,10 +94,14 @@ header{
 }
 
 .language img{
-    width: 20px;
-    margin-right: 7px;
+    width: 25px;
     opacity: 0.5;
     cursor: pointer;
+}
+
+.language span{
+    margin-right: 5px;
+
 }
 
 .lng-selected img{
@@ -154,6 +158,7 @@ header{
     top: 0;
     z-index: 100;
     display: none;
+    transition: all 0.3s;
 }
 
 .menu__close{
@@ -172,7 +177,7 @@ header{
 
 .menu_top-mobile{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
 }
@@ -185,7 +190,6 @@ header{
 
 .menu_top-mobile .menu__icon-mobile{
     margin-top: 10px;
-    margin-left: auto;
 }
 
 .menu_top-mobile .header__language{
@@ -407,7 +411,7 @@ header{
     line-height: 1.143;
     color: rgb(23, 37, 42);
 }
-
+z
 .portfolio__blocks a{
     transition: all 1s;
 }
@@ -467,6 +471,11 @@ header{
     background: url(../img/portfolio_3.webp);
     background-size: cover;
     background-position: top center;
+}
+
+.portfolio-mobile{
+    display: none !important;
+    margin-top: 30px;
 }
 
 /* feedback styles  */
@@ -660,7 +669,8 @@ header{
         padding: 80px 15px 20px 15px;
     }
     .language img{
-        padding-right: 5px;
+        padding-right: 0px;
+        margin-right: 10px;
     }
     .feedback{
         background-attachment: local;
@@ -699,6 +709,15 @@ header{
     }
     .contacts-new__icon{
         margin-right: 0;
+    }
+    .portfolio__blocks{
+        display: none;
+    }
+    .portfolio-mobile{
+        display: block !important;
+    }
+    .portfolio{
+        padding-bottom: 50px;
     }
 }
 

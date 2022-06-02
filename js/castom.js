@@ -16,6 +16,24 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $('.portfolio-mobile').slick({
+        dots: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        infinite: true,
+        responsive: [
+            {
+            breakpoint: 900,
+            settings: {
+                infinite: true,
+                dots: true
+            }
+            }]
+    });
+});
+
 // menu
 
 let menu_mobile = document.querySelector(".menu-mobile"),

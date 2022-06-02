@@ -473,7 +473,7 @@ header{
 
 .feedback{
     background:  url(../img/comment_bg.webp), rgba(0, 0, 0, 0.5);
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     backdrop-filter: blur(10px);
     background-size: cover;
     background-position: top center;
@@ -661,6 +661,9 @@ header{
     }
     .language img{
         padding-right: 5px;
+    }
+    .feedback{
+        background-attachment: local;
     }
 }
 @media screen and (max-width: 580px){

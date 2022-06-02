@@ -37,7 +37,7 @@ img{
 header{
     height: 80vh;
     min-height: 600px;
-    background: url(../img/bg-7.png);
+    background: url(../img/bg-7.webp), rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -434,37 +434,37 @@ header{
 }
 
 .portfolio__block1{
-    background: url(../img/portfolio_5.png);
+    background: url(../img/portfolio_5.webp);
     background-size: cover;
     background-position: top center;
 }
 
 .portfolio__block2{
-    background: url(../img/portfolio_6.png);
+    background: url(../img/portfolio_6.webp);
     background-size: cover;
     background-position: top center;
 }
 
 .portfolio__block3{
-    background: url(../img/portfolio_1.png);
+    background: url(../img/portfolio_1.webp);
     background-size: cover;
     background-position: top center;
 }
 
 .portfolio__block4{
-    background: url(../img/portfolio_2.png);
+    background: url(../img/portfolio_2.webp);
     background-size: cover;
     background-position: top center;
 }
 
 .portfolio__block5{
-    background: url(../img/portfolio_4.png);
+    background: url(../img/portfolio_4.webp);
     background-size: cover;
     background-position: top center;
 }
 
 .portfolio__block6{
-    background: url(../img/portfolio_3.png);
+    background: url(../img/portfolio_3.webp);
     background-size: cover;
     background-position: top center;
 }
@@ -472,7 +472,7 @@ header{
 /* feedback styles  */
 
 .feedback{
-    background:  url(../img/comment_bg.png);
+    background:  url(../img/comment_bg.webp), rgba(0, 0, 0, 0.5);
     background-attachment: fixed;
     backdrop-filter: blur(10px);
     background-size: cover;

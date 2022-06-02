@@ -33,13 +33,3 @@ menu__close.addEventListener("click", function(){
 function openMenu(){
     menu_mobile.classList.toggle("active-flex")
 }
-
-// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-// anchor.addEventListener('click', function (e) {
-//     e.preventDefault();
-
-//     document.querySelector(this.getAttribute('href')).scrollIntoView({
-//         behavior: 'smooth'
-//     });
-// });
-// });

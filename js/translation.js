@@ -109,6 +109,26 @@ let lng_data = {
     "portfolio_h" : {
         "ua" : "Портфоліо",
         "us" : "Portfolio"
+    },
+    "comment_1" : {
+        "ua" : "Работа сделана быстро. Всегда на связи.",
+        "us" : "The work is done quickly. Always in touch."
+    },
+    "comment_2" : {
+        "ua" : "Работа выполнена быстро, учтены все пожелания, хорошая коммуникация. Спасибо!",
+        "us" : "The work is done quickly, all wishes are taken into account, good communication. Thank you!"
+    },
+    "comment_3" : {
+        "ua" : "Всё сделано, пожелания учтены + оказаны дополнительно услуги. Рекомендую к сотрудничеству.",
+        "us" : "Everything is done, wishes are taken into account + additional services are provided. I recommend cooperation."
+    },
+    "comment_4" : {
+        "ua" : "Юра быстро справился с работой! Очень довольна, рекомендую!",
+        "us" : "Yura did a good job! Very happy, I recommend!"
+    },
+    "footer" : {
+        "ua" : "Made by<a href='#wrapper'>  Yurii Syom</a>",
+        "us" : "Made by<a href='#wrapper'>  Yurii Syom</a>"
     }
 }
 

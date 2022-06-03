@@ -4,7 +4,9 @@ $(document).ready(function(){
         arrows: false,
         autoplay: true,
         autoplaySpeed: 3000,
-        infinite: true,
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         responsive: [
             {
             breakpoint: 900,

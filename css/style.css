@@ -735,6 +735,12 @@ z
     .portfolio{
         padding-bottom: 50px;
     }
+    header{
+        background: url(../img/bg-7_mobile.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
 }
 
 @media screen and (max-width: 475px){

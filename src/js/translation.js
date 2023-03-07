@@ -112,36 +112,36 @@ const langArr =  {
             "en": "Open"
         },
         "case-1-name": {
-            "ua": "Лендінг сайту 1",
-            "en": "Landing page of the site 1"
+            "ua": "Excelsium",
+            "en": "Excelsium"
         },
         "case-1-text": {
-            "ua": "Лендінг для установи МРТ обстеження. Тут ще текст про замовника або щось таке.",
-            "en": "A landing page for an MRI examination center. There is also a text about the customer or something like that."
+            "ua": "Американський сайт по продажу медичних курсів.",
+            "en": "American website selling medical courses."
         },
         "case-2-name": {
-            "ua": "Лендінг сайту 2",
-            "en": "Landing page of the site 2"
+            "ua": "МРТ Відновлення",
+            "en": "MRI Recovery"
         },
         "case-2-text": {
-            "ua": "Лендінг для установи МРТ обстеження. Тут ще текст про замовника або щось таке.",
-            "en": "A landing page for an MRI examination center. There is also a text about the customer or something like that."
+            "ua": "Сайт приватного кабінету на МРТ",
+            "en": "Website of a private office for MRI"
         },
         "case-3-name": {
-            "ua": "Лендінг сайту 3",
-            "en": "Landing page of the site 3"
+            "ua": "Технічно навчальний заклад",
+            "en": "A technical educational institution"
         },
         "case-3-text": {
-            "ua": "Лендінг для установи МРТ обстеження. Тут ще текст про замовника або щось таке.",
-            "en": "A landing page for an MRI examination center. There is also a text about the customer or something like that."
+            "ua": "Сайт державного-професійно технічного закладу",
+            "en": "Website of the state professional and technical institution"
         },
         "case-4-name": {
-            "ua": "Лендінг сайту 4",
-            "en": "Landing page of the site 4"
+            "ua": "Phanton",
+            "en": "Phanton"
         },
         "case-4-text": {
-            "ua": "Лендінг для установи МРТ обстеження. Тут ще текст про замовника або щось таке.",
-            "en": "A landing page for an MRI examination center. There is also a text about the customer or something like that."
+            "ua": "Тренувальний landing page",
+            "en": "Training landing page"
         },
         "more-button": {
             "ua": "Більше моїх робіт можете побачити тут: <a href='https://github.com/DILLIR' target='_blank' class='link link_green link_animate'>КЛАЦ</a>",

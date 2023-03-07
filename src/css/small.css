@@ -1,0 +1,177 @@
+.container{
+    padding: 0px 20px;
+}
+
+.navigation__language{
+    flex-direction: column;
+}
+
+.arrow-next{
+    display: none;
+}
+
+
+/* header styles */
+
+.header{
+    padding-top: 40px;
+    min-height: auto;
+}
+
+.header__headings{
+    margin-bottom: 40px;
+}
+
+.header__main-title{
+    font-size: 47px;
+    line-height: 1;
+}
+
+.button{
+    padding: 11px 60px;
+    width: fit-content;
+}
+
+.contacts__item:not(:last-child){
+    margin-right: 30px;
+}
+
+.header__buttons{
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__button{
+    text-align: center;
+    display: inline-block;
+}
+
+.header__button:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+/* advantages styles */
+
+.advantages__block{
+    padding-bottom: 30px;
+}
+
+
+
+/* skills services styles */
+
+.skills-services .container{
+    flex-direction: column;
+}
+
+.skills-services__skills, .skills-services__services{
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+}
+
+.title{
+    text-align: center;
+}
+
+.skills__name{
+    text-align: center;
+}
+
+.skills__items{
+    justify-content: center;
+    width: 100%;
+}
+
+.skills-services__skills, .skills-services__services{
+    width: 100%;
+}
+
+.skills-services__skills{
+    margin-bottom: 90px;
+}
+
+.services__item:before{
+    margin-top: 8px;
+}
+
+.skills-services .container{
+    padding-bottom: 30px;
+}
+
+/* my-works styles */
+
+.my-works__column{
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+    margin-right: 0 !important;
+}
+
+.my-works__case{
+    min-width: auto;
+    max-width: 100%;
+    margin: 0px 10px;
+    padding-bottom: 20px;
+}
+
+.my-works__slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.slick-list{
+    max-width: 100% !important;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.my-works__more{
+    margin-top: 50px;
+    padding: 0 10px;
+}
+
+.slick-dots li.slick-active button:before{
+    color: #fff !important;
+}
+
+.slick-dots li button:before{
+    color: white;
+    opacity: .25;
+}
+
+.my-works__title{
+    margin-bottom: 20px;
+}
+
+/* feedback styles */
+
+.feedback__slider{
+    width: 100%;
+}
+
+.feedback__comment{
+    width: 100%;
+}
+
+.feedback{
+    padding-bottom: 70px;
+}
+
+.feedback__comment{
+    margin: 0 10px;
+}
+
+/* footer styles */
+
+.footer .contacts{
+    display: none;
+}
+
+.footer__text{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}

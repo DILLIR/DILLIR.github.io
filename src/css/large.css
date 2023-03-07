@@ -1,0 +1,165 @@
+.container{
+    padding: 0px 15px;
+    max-width: 960px;
+}
+
+/* navigation styles */
+
+.navigation{
+    padding: 20px 0px;
+}
+
+
+.content_active .navigation{
+    border-top-left-radius: 83px;
+
+}
+.navigation__menu{
+    display: none;
+}
+
+.navigation__burger-menu{
+    display: block;
+}
+
+.burger-menu{
+    display: none;
+    /* background: #CCFF00; */
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 0;
+    padding-top: 30px;
+    color: #020C1B;
+    overflow-x: hidden;
+}
+
+.burger-menu_active{
+    display: block;
+}
+
+.burger-menu .menu__link{
+    font-size: 23px;
+    color: #020C1B;
+    margin-bottom: 50px;
+}
+
+.burger-menu .navigation__menu{
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+    width: fit-content;
+}
+
+.wrapper{
+    box-sizing: content-box;
+    overflow: hidden;
+    height: 100%;
+    background: #CCFF00;
+}
+.content{
+    transition: margin  0.5s;
+    width: 100vw;
+    background: #020C1B;
+    /* background: #020C1B !important; */
+}
+
+.content_active{
+    box-sizing: content-box;
+    /* position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px; */
+    /* transform: translate(200px, 130px); */
+    margin-top: 130px;
+    margin-left: 200px;
+    background: #020C1B;
+    z-index: 20000;
+    width: 100vw;
+    border-radius: 83px;
+}
+
+/* backgrounds styles */
+/* .advantages, .skills-services .container, .skills-services, .my-works .container, .feedback .container, .footer .container{
+    background: #020C1B;
+} */
+
+/* header styles */
+
+.header-contacts{
+    position: static;
+    flex-direction: row;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 60px;
+}
+
+.header__headings{
+    margin-bottom: 92px;
+}
+
+.contacts__item{
+    width: 28px;
+}
+
+.contacts__item:not(:last-child){
+    margin-right: 60px;
+}
+
+.contacts__icon{
+    width: 28px;
+    height: 28px;
+    margin-bottom: 0;
+}
+
+.header .arrow-next{
+    position: static;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+/* advantages styles */
+
+.advantages__column{
+    min-width: 440px;
+}
+
+.advantages__block{
+    flex-wrap: wrap;
+}
+/* skills-services styles */
+
+.skills-services .container{
+    flex-wrap: wrap;
+}
+
+.services__item{
+    align-items: flex-start;
+}
+
+.services__item:before{
+    margin-top: 10px;
+}
+
+/* my-works styles */
+
+.my-works__column{
+    max-width: 48%;
+    min-width: 400px;
+}
+.my-works__column:not(:first-child){
+    margin-right: 20px;
+}
+
+.my-works .container{
+    flex-wrap: wrap;
+}
+
+.my-works__column_center{
+    order: -1;
+}

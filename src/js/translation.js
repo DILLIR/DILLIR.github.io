@@ -116,16 +116,16 @@ const langArr =  {
             "en": "Excelsium"
         },
         "case-1-text": {
-            "ua": "Американський сайт по продажу медичних курсів.",
-            "en": "American website selling medical courses."
+            "ua": "Американський сайт з продажу медичних курсів",
+            "en": "American website selling medical courses"
         },
         "case-2-name": {
             "ua": "МРТ Відновлення",
             "en": "MRI Recovery"
         },
         "case-2-text": {
-            "ua": "Сайт приватного кабінету на МРТ",
-            "en": "Website of a private office for MRI"
+            "ua": "Сайт приватного кабінету МРТ",
+            "en": "Website of a private MRI office"
         },
         "case-3-name": {
             "ua": "Технічно навчальний заклад",

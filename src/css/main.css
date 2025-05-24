@@ -56,8 +56,12 @@ img{
 
 .navigation{
     position: sticky;
-    padding: 33px 0px;
+    top: 0px;
+    z-index: 1000;
+    padding: 20px 0px;
     background: #020C1B;
+    height: 101px;
+    border-bottom: 1px solid #444444;
 }
 
 .navigation .container{
@@ -137,14 +141,14 @@ img{
 /* header styles */
 
 .header{
-    height: 90vh;
+    height: calc(100dvh - 121px);
     min-height: 700px;
     background: url("../img/background/header.png");
     background-color: #020C1B;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 92px;
+    padding-top: 60px;
     position: relative;
 }
 
@@ -218,7 +222,7 @@ img{
 
 .arrow-next{
     position: absolute;
-    bottom: 0px;
+    bottom: 25px;
     left: calc(50% - 44px);
     cursor: pointer;
 }

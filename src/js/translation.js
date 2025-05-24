@@ -1,7 +1,7 @@
 const langArr =  {
         "header-heading-1":{
-            "ua" : "Вітаю у моїй скарбничці 👋",
-            "en" : "Welcome to my home 👋"
+            "ua" : "Вітаю на моїй домашній сторінці 👋",
+            "en" : "Welcome to my home page 👋"
         },
         "header-heading-2":{
             "ua" : "Реалізація <span class='text_green'>якісних</span> сайтів <span class='text_gray'>і не тільки",
@@ -78,6 +78,10 @@ const langArr =  {
         "section-heading-3": {
             "ua": "Послуги",
             "en": "Services"
+        },
+        "services-0": {
+            "ua": "Web application",
+            "en": "Web application"
         },
         "services-1": {
             "ua": "Landing page",
@@ -182,5 +186,13 @@ const langArr =  {
         "comment-4-text": {
             "ua": "Юра быстро справился с работой! Очень довольна, рекомендую!",
             "en": "Yura did a good job! Very happy, I recommend!"
+        },
+        "comment-5-name": {
+            "ua": "Joaquin <a href='https://www.fiverr.com/joaquinsilvajr?source=inbox' class='comment__link'><img src='src/img/share-icon.svg' alt=''></a>",
+            "en": "Joaquin <a href='https://www.fiverr.com/joaquinsilvajr?source=inbox' class='comment__link'><img src='src/img/share-icon.svg' alt=''></a>"
+        },
+        "comment-5-text": {
+            "ua": "Я був НАДЗВИЧАЙНО ВРАЖЕНИЙ навичками розробки програмного забезпечення Юрія С! Його увага до деталей та обширна документація перевершили всі очікування та зробили співпрацю надзвичайно простою. Швидка реакція та вільне спілкування ще більше покращили безперебійний досвід. 👍 Настійно рекомендую, буду співпрацювати з Юрієм знову.",
+            "en": "I was thoroughly IMPRESSED with Yurii S's software development skills! His attention to detail and extensive documentation exceeded expectations and made collaboration a breeze. Quick responsiveness and fluent communication further enhanced the seamless experience. 👍 Highly recommended will work with Yurri again."
         }
     }

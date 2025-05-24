@@ -24,7 +24,6 @@
 
 .burger-menu{
     display: none;
-    /* background: #CCFF00; */
     height: 100%;
     width: 100vw;
     position: fixed;
@@ -57,24 +56,23 @@
 
 .wrapper{
     box-sizing: content-box;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 100%;
     background: #CCFF00;
 }
+
+.wrapper:has(.burger-menu_active){
+    /* overflow: hidden; */
+}
+
 .content{
     transition: margin  0.5s;
     width: 100vw;
     background: #020C1B;
-    /* background: #020C1B !important; */
 }
 
 .content_active{
     box-sizing: content-box;
-    /* position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px; */
-    /* transform: translate(200px, 130px); */
     margin-top: 130px;
     margin-left: 200px;
     background: #020C1B;
@@ -82,11 +80,6 @@
     width: 100vw;
     border-radius: 83px;
 }
-
-/* backgrounds styles */
-/* .advantages, .skills-services .container, .skills-services, .my-works .container, .feedback .container, .footer .container{
-    background: #020C1B;
-} */
 
 /* header styles */
 

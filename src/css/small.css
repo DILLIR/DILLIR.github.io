@@ -23,7 +23,7 @@
 }
 
 .header__main-title{
-    font-size: 47px;
+    font-size: 36px;
     line-height: 1;
 }
 
@@ -57,7 +57,9 @@
     padding-bottom: 30px;
 }
 
-
+.advantages .title_arrow{
+    flex-direction: column;
+}
 
 /* skills services styles */
 

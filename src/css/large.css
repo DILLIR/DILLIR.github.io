@@ -62,7 +62,7 @@
 }
 
 .wrapper:has(.burger-menu_active){
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .content{

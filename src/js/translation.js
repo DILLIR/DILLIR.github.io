@@ -140,12 +140,12 @@ const langArr =  {
             "en": "Website of the state professional and technical institution"
         },
         "case-4-name": {
-            "ua": "Phanton",
-            "en": "Phanton"
+            "ua": "Інформаційна сторінка Rambo",
+            "en": "Rambo info page"
         },
         "case-4-text": {
-            "ua": "Тренувальний landing page",
-            "en": "Training landing page"
+            "ua": "Веб-сторінка для курсу з Docker",
+            "en": "Webpage for Docker course"
         },
         "more-button": {
             "ua": "Більше моїх робіт можете побачити тут: <a href='https://github.com/DILLIR' target='_blank' class='link link_green link_animate'>КЛАЦ</a>",

@@ -2,10 +2,11 @@ $(document).ready(function(){
     $('.feedback__slider').slick({
         infinite: true,
         slidesToShow: 2,
-        useTransform: false,
+        useTransform: true,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
+        adaptiveHeight: true,
         responsive: [
             {
                 breakpoint: 600,
